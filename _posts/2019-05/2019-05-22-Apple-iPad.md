@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "iPad 百百種，各有巧妙不同 (2019/05)"
+title:  "iPad 百百種，各有巧妙不同"
+subtitle: "(2019/05)"
 date:   2019-05-22 12:00:00 +0800
 background: 'https://i.imgur.com/im3eBvq.jpg'
 categories: 挑機小技巧

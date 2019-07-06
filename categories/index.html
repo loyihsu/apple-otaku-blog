@@ -1,0 +1,38 @@
+---
+layout: page
+title: 分類 
+background: '[local]/img/background_categories.jpg'
+---
+
+<script>
+function hide() {
+  $('.collapse').collapse("hide");
+}
+</script>
+
+
+{% for cat in site.categories %}
+  <h2 class="categories"><a data-toggle="collapse" onclick="javascript: hide();" href="#{{cat[0]}}">＃{{ cat[0] }}</a>
+  </h2>
+  <div id="{{ cat[0] }}" class="panel-collapse collapse smoother">
+      {% for post in cat[1] %}
+      <article class="post-preview">
+        <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+          <h2 class="post-title">{{ post.title }}</h2>
+          {% if post.subtitle %}
+          <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+          {% endif %}
+          <h3 class="post-prev">{{ post.excerpt | strip_html | truncatewords: 20 }}</h3>
+        </a>
+        <p class="post-meta">Posted by
+          {% if post.author %}
+          {{ post.author }}
+          {% else %}
+          {{ site.author }}
+          {% endif %}
+          &middot; {{ post.date | date: '%Y/%m/%d' }}
+        </p>
+      </article>
+    {% endfor %}
+  </div>
+{% endfor %}

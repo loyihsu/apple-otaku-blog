@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "想買台電腦！Mac 跟 iPad 產品的巧妙選擇！（下）(2019/07)"
-subtitle: "桌上型的 Mac 們"
+title:  "想買台電腦！Mac 跟 iPad 產品的巧妙選擇！（下）"
+subtitle: "桌上型的 Mac 們 (2019/07)"
 date:   2019-07-03 12:00:00 +0800
 background: 'https://i.imgur.com/w1o5zXz.jpg'
 categories: 挑機小技巧
 ---
+
 經過上次我們對於膝上型電腦的討論之後，這一回我們來討論一下關於桌上型電腦以及一些買 Mac 時要注意的細節。如果是對於膝上型電腦有興趣，或是不確定哪一種才是適合你的電腦的話，可以先參考[上面一篇]({{site.url}}{{site.baseurl}}/挑機小技巧/2019/06/26/Pick-Mac-I.html)。
 
 ### 桌上型電腦
