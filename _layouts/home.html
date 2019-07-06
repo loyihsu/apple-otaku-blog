@@ -7,7 +7,7 @@ layout: default
 <header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
   {% else %}
   <header class="masthead">
-    {% endif %}
+  {% endif %}
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -46,7 +46,7 @@ layout: default
             {% else %}
             {{ site.author }}
             {% endif %}
-            &middot; {{ page.date | date: '%Y/%m/%d' }} <!--&middot; {% include read_time.html content=post.content %}-->          
+            &middot; {{ post.date | date: '%Y/%m/%d' }} <!--&middot; {% include read_time.html content=post.content %}-->          
           </p>
         </article>
 
