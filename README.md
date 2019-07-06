@@ -1,4 +1,4 @@
-# ＃蘋果宅 (Apple-Otaku)
+# ＃蘋果宅 (apple-otaku-blog)
 
 A Jekyll-powered version of the Apple Otaku Blog.
 
