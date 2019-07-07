@@ -18,7 +18,7 @@ categories: 技術說說看
 ### Homebrew
 
 ![](https://i.imgur.com/sYUw4k0.png)
-<small>透過如此簡單的方式，就可以安裝一個命令列程式。</small>
+<p style="text-align:center;"><small>透過如此簡單的方式，就可以安裝一個命令列程式。</small></p>
 
 一般來說 Homebrew 安裝的程式都是命令列類型的程式，也就是在終端機裡面跑的、看起來很像駭客的程式（？）。但是我們正常用到的圖像使用者介面(GUI)程式呢？
 
@@ -27,7 +27,7 @@ categories: 技術說說看
 然而，我們剛剛介紹的 Homebrew 其實也有一個叫做 Cask 的道具，是用來安裝一些 GUI 程式的工具。裡面比較有名的程式，甚至連 Google 的瀏覽器 Chrome 也可以直接透過 Homebrew 安裝（糟了，預設瀏覽器拿來下載 Google 瀏覽器的基本功能也要失業了（誤））。
 
 ![](https://i.imgur.com/9AHnHdH.png)
-<small>只要是 Cask 有包含的程式，只要跑這樣的指令，安裝完成之後檔案就會程式就會直接出現在程式資料夾裡了！</small>
+<p style="text-align:center;"><small>只要是 Cask 有包含的程式，只要跑這樣的指令，安裝完成之後檔案就會程式就會直接出現在程式資料夾裡了！</small></p>
 
 ## 討論
 
