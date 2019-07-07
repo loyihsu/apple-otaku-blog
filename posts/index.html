@@ -30,23 +30,21 @@ background: '[local]/img/background_posts.jpg'
 
 <!-- Pager -->
 {% if paginator.total_pages > 1 %}
-
 <div class="clearfix">
-  <p style="text-align:center;"> 
-
-    {% if paginator.previous_page %}<a href="{{site.baseurl}}{{paginator.previous_page_path}}">{% endif %}<i class="fas fa-chevron-left"></i>{% if paginator.previous_page %}</a>{% endif %}
-
-    {{ paginator.page }} / {{ paginator.total_pages }}  
-    
-    {% if paginator.next_page %}
-    <a href="{{site.baseurl}}{{paginator.next_page_path}}">
-    {% endif %}
-      <i class="fas fa-chevron-right"></i>
-    {% if paginator.next_page %}
-    </a>
-    {% endif %}
-
-  </p>
+  <div style="display:grid; grid-template-columns: 1fr 1fr 1fr; text-align:center;"> 
+    <div style="grid-column: 1;">
+      {% if paginator.previous_page %}
+        <a class="btn btn-primary" style="float: left;" href="{{site.baseurl}}{{paginator.previous_page_path}}"><i class="fas fa-chevron-left"></i><span class="d-none d-md-inline"> 上一頁</span></a>
+      {% endif %}
+    </div>
+    <div style="padding-top: 11.5px; grid-column: 2;">
+      {{ paginator.page }} / {{ paginator.total_pages }}
+    </div>
+    <div style="grid-column: 3;">
+      {% if paginator.next_page %}
+        <a class="btn btn-primary" disabled style="float:right;" href="{{site.baseurl}}{{paginator.next_page_path}}"><span class="d-none d-md-inline">下一頁 </span><i class="fas fa-chevron-right"></i></a>
+      {% endif %}
+    </div>
+  </div>
 </div>
-
 {% endif %}
