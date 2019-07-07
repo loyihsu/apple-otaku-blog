@@ -35,7 +35,7 @@ window.onload = function () {
           {% endif %}
           <h3 class="post-prev">{{ post.excerpt | strip_html | truncatewords: 20 }}</h3>
         </a>
-        <p class="post-meta">Posted by
+        <p class="post-meta">
           {% if post.author %}
           {{ post.author }}
           {% else %}
