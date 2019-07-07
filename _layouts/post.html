@@ -17,10 +17,8 @@ layout: default
             {% if page.subtitle %}
             <h2 class="subheading">{{ page.subtitle }}</h2>
             {% endif %}
-            <span class="meta">Posted by
-              <a href="#">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
-              &middot; {{ page.date | date: '%Y/%m/%d' }}<!-- &middot; {% include read_time.html
-              content=page.content %}-->
+            <span class="meta"><a href="{{site.baseurl}}/about">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
+              &middot; {{ page.date | date: '%Y/%m/%d' }} &middot; <span style="font-style: normal;"><a href="{{site.baseurl}}/categories?q={{page.categories}}">{{page.categories}}</a></span>
             </span>
           </div>
         </div>

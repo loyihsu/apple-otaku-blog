@@ -1,7 +1,8 @@
 // Global styling for this template
 body {
+  background-color: $gray-900;
   font-size: 20px;
-  color: $gray-900;
+  color: $gray-500;
   @include serif-font;
 }
 
@@ -24,7 +25,7 @@ h6 {
 }
 
 a {
-  color: $gray-900;
+  color: $gray-500;
   @include transition-all;
   &:focus,
   &:hover {

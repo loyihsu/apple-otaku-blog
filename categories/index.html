@@ -8,12 +8,23 @@ background: '[local]/img/background_categories.jpg'
 function hide() {
   $('.collapse').collapse("hide");
 }
+
+window.onload = function () {
+  const urlParams = new URLSearchParams(window.location.search);
+  const query = urlParams.get('q');
+  console.log(query);
+  $("#" + query).collapse('show');
+  
+  $([document.documentElement, document.body]).animate({
+        scrollTop: $("#title-"+query).offset().top
+    }, 1000);
+}
+
 </script>
 
 
 {% for cat in site.categories %}
-  <h2 class="categories"><a data-toggle="collapse" onclick="javascript: hide();" href="#{{cat[0]}}">＃{{ cat[0] }} ({{ cat[1] | size }})</a>
-  </h2>
+  <h2 id="title-{{ cat[0] }}" class="categories"><a data-toggle="collapse" onclick="javascript: hide();" href="#{{cat[0]}}">＃{{ cat[0] }} <span class="count">{{ cat[1] | size }}</span></a></h2>
   <div id="{{ cat[0] }}" class="panel-collapse collapse smoother">
       {% for post in cat[1] %}
       <article class="post-preview">

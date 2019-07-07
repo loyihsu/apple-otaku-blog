@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title:  ＃蘋果宅
 email: works@loyi.dev
-author: Loyi Hsu
+author: Loyi Yu-Sung Hsu
 description: >- # this means to ignore newlines until "baseurl:"
   用一個「蘋果宅」的觀點，把一些很複雜、很宅的話題講得很白話（我盡量）。
 baseurl: "" # the subpath of your site, e.g. /blog
