@@ -19,7 +19,7 @@ WWDC 是 Apple 公佈新版軟體的時機，也就是說 Apple 的四個作業�
 
 相對起值得期待的 iOS 13， macOS 的部分就比較沒有那麼精彩了。 macOS 從 Yosemite 開始，每一代基本上有一個一大、一小的規則，去年的 macOS Mojave 算是一個 macOS 的大年，所以今年的 macOS 可能就不會像去年有這麼大的變化。
 
-可以預期的是 [Marzipan 計畫]({{site.url}}{{site.baseurl}}/技術名詞小解析/2019/04/17/Apple-Marzipan.html)的程式一定會開始變多，官方的部分就先前就有傳聞會有四個新的程式加入 macOS 的家族之中，而因為去年 Apple 有說 2019 年會將 Marzipan 送到開發者手中，我自己也會在可以那麼做之後，把一些程式搬運到 macOS 上試試看。
+可以預期的是 [Marzipan 計畫]({{site.url}}{{site.baseurl}}/posts/2019/Apple-Marzipan.html)的程式一定會開始變多，官方的部分就先前就有傳聞會有四個新的程式加入 macOS 的家族之中，而因為去年 Apple 有說 2019 年會將 Marzipan 送到開發者手中，我自己也會在可以那麼做之後，把一些程式搬運到 macOS 上試試看。
 
 tvOS 的變動應該主要都會跟秋季會發佈的訂閱服務 Apple TV+ 有關。
 

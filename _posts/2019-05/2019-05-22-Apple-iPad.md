@@ -16,7 +16,7 @@ iPad 產品線的變化，現在可能是最多元化的一個時間點。雖然
 
 iPad Pro 的專屬配件有第二代的 Apple Pencil （不相容第一代）跟 Smart Keyboard Folio （不相容 Smart Keyboard），前者在充電與收納上都較第一代直觀，後者雖然在打字體驗上不及藍芽鍵盤，但在設計上不需要另外耗費電池跟充電。
 
-這一代的 iPad Pro 有 11 吋和 12.9 吋兩種大小，對於覺得在螢幕上使用 Apple Pencil 寫字的使用者來說，算是螢幕最大，可能比較適合的一個大小。裡面的核心使用的是 A12X Bionic 晶片，是 A12 晶片的變種晶片，專門使用在 iPad Pro 上面。螢幕上有 [ProMotion 技術]({{site.url}}{{site.baseurl}}/技術名詞小解析/2019/05/08/Apple-ProMotion.html)，並且有全平面貼合顯示技術，螢幕更貼合像素，對於用 Apple Pencil 寫字會比其它來得更滑順、自然。
+這一代的 iPad Pro 有 11 吋和 12.9 吋兩種大小，對於覺得在螢幕上使用 Apple Pencil 寫字的使用者來說，算是螢幕最大，可能比較適合的一個大小。裡面的核心使用的是 A12X Bionic 晶片，是 A12 晶片的變種晶片，專門使用在 iPad Pro 上面。螢幕上有 [ProMotion 技術]({{site.url}}{{site.baseurl}}/posts/2019/Apple-ProMotion.html)，並且有全平面貼合顯示技術，螢幕更貼合像素，對於用 Apple Pencil 寫字會比其它來得更滑順、自然。
 
 缺點是因為取消了邊框，手不太好拿，但是適應就可以了。另外，目前的 iPad Pro 卡在 iOS 程式端限制了機器的功能，不過因為是程式端的狀況，未來的更新有空間可以改善。
 

@@ -7,7 +7,7 @@ categories: 技術說說看
 ---
 **警告：本篇內容較深入，但是我們盡量說人話。**
 
-上次在討論 Apple 的 [Marzipan（杏仁糖）計畫]({{site.url}}{{site.baseurl}}/技術名詞小解析/2019/04/17/Apple-Marzipan.html)的時候，曾經雖然提過 macOS 大部分的程式是用 AppKit 開發、 iOS 大部分的程式是用 UIKit 開發，這種開發工具包基本上就是官方幫你定義好（很大）一部分的東西，然後開發者有點像**玩積木一樣**把積木拼湊成你想要的功能，這通常就是開發的過程。
+上次在討論 Apple 的 [Marzipan（杏仁糖）計畫]({{site.url}}{{site.baseurl}}/posts/2019/Apple-Marzipan.html)的時候，曾經雖然提過 macOS 大部分的程式是用 AppKit 開發、 iOS 大部分的程式是用 UIKit 開發，這種開發工具包基本上就是官方幫你定義好（很大）一部分的東西，然後開發者有點像**玩積木一樣**把積木拼湊成你想要的功能，這通常就是開發的過程。
 
 ## 使用 AppKit 跟 UIKit 開發的優缺點
 

@@ -108,7 +108,7 @@ iPad 這次有一個新的作業系統名稱叫做 iPadOS，基本上是針對�
 
 現在在 macOS 的系統偏好設定中，可以選擇這個 Sidecar 的選項，也就可以從這裡將你的螢幕投放到（應該是執行 iPadOS 的） iPad 上，你就可以讓你的 iPad 真正變成一個延伸螢幕。
 
-而 [Marzipan 計畫]({{site.url}}{{site.baseurl}}/技術名詞小解析/2019/04/17/Apple-Marzipan.html)也換了個名字，變成 Project Catalyst，讓開發者可以輕鬆將 UIKit 的程式也變成一個 Mac 程式。已經有許多廠商（包含 Twitter）宣布將藉由 Project Catalyst 將 Twitter 程式搬運到 macOS 上供使用者使用。
+而 [Marzipan 計畫]({{site.url}}{{site.baseurl}}/posts/2019/Apple-Marzipan.html)也換了個名字，變成 Project Catalyst，讓開發者可以輕鬆將 UIKit 的程式也變成一個 Mac 程式。已經有許多廠商（包含 Twitter）宣布將藉由 Project Catalyst 將 Twitter 程式搬運到 macOS 上供使用者使用。
 
 ![](https://i.imgur.com/AOTkGXI.png)
 
