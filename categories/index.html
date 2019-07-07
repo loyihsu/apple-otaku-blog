@@ -12,14 +12,14 @@ function hide() {
 window.onload = function () {
   const urlParams = new URLSearchParams(window.location.search);
   const query = urlParams.get('q');
-  console.log(query);
-  $("#" + query).collapse('show');
+  if (query != null) {
+    $("#" + query).collapse('show');
   
-  $([document.documentElement, document.body]).animate({
-        scrollTop: $("#title-"+query).offset().top
-    }, 1000);
+    $([document.documentElement, document.body]).animate({
+          scrollTop: $("#title-"+query).offset().top
+      }, 1000);
+  }
 }
-
 </script>
 
 
