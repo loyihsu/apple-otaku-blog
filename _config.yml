@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   用一個「蘋果宅」的觀點，把一些很複雜、很宅的話題講得很白話（我盡量）。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://otaku-blog.loyi.dev" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: loyihsu
+twitter_username: theLoyi_tw
 github_username:  loyihsu
 permalink: /posts/:year/:title:output_ext
 
